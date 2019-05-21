@@ -1,0 +1,38 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.game_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  height: 600px;
+  width: 600px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.square.win {
+  background-image: url('http://icons.iconarchive.com/icons/flat-icons.com/flat/96/Beer-icon.png');
+}
+
+.square.lose {
+  background-image: url('http://icons.iconarchive.com/icons/hopstarter/keriyo-emoticons/96/Smiley-sad-icon.png');
+}

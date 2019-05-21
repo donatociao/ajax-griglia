@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BeerGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
+  </head>
+  <body>
+
+    <div class="game_container">
+      <div class="game">
+      </div>
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
+    
+    <!-- TEMPLATE QUADRATO -->
+    <script id="square-gen" type="text/x-handlebars-template">
+      <div class="square {{gameclass}}"></div>
+    </script>
+  </body>
+</html>
