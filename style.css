@@ -20,13 +20,15 @@
   background-color: lightgrey;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .square {
-  border: 1px solid black;
+  border: 1px solid blac;
   width: 100px;
   height: 100px;
   background-size: cover;
+  display: flex;
 }
 
 .square.win {
@@ -35,4 +37,8 @@
 
 .square.lose {
   background-image: url('http://icons.iconarchive.com/icons/hopstarter/keriyo-emoticons/96/Smiley-sad-icon.png');
+}
+
+.square.click {
+  background-image: url('https://media.giphy.com/media/3mgxIeR3WvM1X0DxVM/giphy.gif');
 }
